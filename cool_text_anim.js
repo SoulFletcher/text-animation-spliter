@@ -15,7 +15,6 @@ function move(){
     arrays[index].forEach(element => { 
         c += 190/texts[index].length
         let a = document.createElement("div");
-        a.classList.add('inletter');
         a.innerText = `${element}`;
         a.style.transitionDelay = `${c}ms`
         my_buttons[index].append(a);
